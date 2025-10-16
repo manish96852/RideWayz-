@@ -1,6 +1,6 @@
 # 🚗 RideWayz - Smart Rider Safety Solution
 
-[![Live Demo](https://img.shields.io/badge/Live-Demo-green?style=for-the-badge)](https://ridewayz-app-git-main-batmans-projects-bb05a6ef.vercel.app)
+[![Live Demo](https://img.shields.io/badge/Live-Demo-green?style=for-the-badge)](https://manish96852.github.io/RideWayz-)
 [![React](https://img.shields.io/badge/React-18.2.0-blue?style=for-the-badge&logo=react)](https://reactjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-4.9.0-blue?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
 [![Node.js](https://img.shields.io/badge/Node.js-Backend-green?style=for-the-badge&logo=node.js)](https://nodejs.org/)
@@ -9,7 +9,7 @@
 
 **RideWayz** is an innovative IoT-powered rider safety solution that combines real-time monitoring, accident detection, and emergency response systems to protect two-wheeler riders. The system uses ESP32 microcontrollers with multiple sensors to detect accidents and automatically alert emergency services and family members.
 
-### 🎯 **Live Demo**: [https://ridewayz-app-git-main-batmans-projects-bb05a6ef.vercel.app](https://ridewayz-app-git-main-batmans-projects-bb05a6ef.vercel.app)
+### 🎯 **Live Demo**: [https://manish96852.github.io/RideWayz-](https://manish96852.github.io/RideWayz-)
 
 ---
 
@@ -260,5 +260,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **⭐ If you find this project helpful, please give it a star!**
 
-**🚗 Made with ❤️ for Rider Safety**#   R i d e W a y z -  
+**🚗 Made with ❤️ for Rider Safety**#   R i d e W a y z - 
+ 
  

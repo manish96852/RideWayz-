@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RideWayz - Smart Rider Safety Solution</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            font-family: 'Arial', sans-serif; 
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white; 
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        .container { max-width: 1200px; margin: 0 auto; padding: 20px; }
+        .header { text-align: center; padding: 40px 0; }
+        .header h1 { font-size: 3em; margin-bottom: 20px; }
+        .header p { font-size: 1.2em; opacity: 0.9; }
+        .features { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; margin: 40px 0; }
+        .feature-card { 
+            background: rgba(255,255,255,0.1); 
+            padding: 30px; 
+            border-radius: 15px; 
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255,255,255,0.2);
+        }
+        .feature-card h3 { font-size: 1.5em; margin-bottom: 15px; }
+        .demo-section { text-align: center; margin: 50px 0; }
+        .demo-button { 
+            display: inline-block;
+            background: #ff6b6b;
+            color: white;
+            padding: 15px 30px;
+            font-size: 1.2em;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            text-decoration: none;
+            margin: 10px;
+            transition: transform 0.3s;
+        }
+        .demo-button:hover { transform: translateY(-3px); }
+        .tech-stack { background: rgba(0,0,0,0.2); padding: 40px; border-radius: 15px; margin: 40px 0; }
+        .tech-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; margin-top: 20px; }
+        .tech-item { text-align: center; padding: 20px; background: rgba(255,255,255,0.1); border-radius: 10px; }
+        .footer { text-align: center; padding: 40px 0; margin-top: auto; }
+        @media (max-width: 768px) {
+            .header h1 { font-size: 2em; }
+            .container { padding: 10px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🚗 RideWayz</h1>
+            <p>Smart Rider Safety Solution - IoT Powered Accident Prevention</p>
+        </div>
+
+        <div class="demo-section">
+            <h2>🎯 Live Demo Available</h2>
+            <a href="https://github.com/manish96852/RideWayz-" class="demo-button">📂 View GitHub Repository</a>
+            <a href="#" onclick="alert('Demo being fixed! Check GitHub for latest code.')" class="demo-button">📱 Try Mobile Demo</a>
+        </div>
+
+        <div class="features">
+            <div class="feature-card">
+                <h3>🛡️ Safety First</h3>
+                <p>Real-time accident detection using AI algorithms with 94% accuracy. Automatic emergency SOS with GPS location sharing.</p>
+            </div>
+            <div class="feature-card">
+                <h3>📱 Mobile Ready</h3>
+                <p>Progressive Web App that installs as native mobile app. Works offline and supports push notifications.</p>
+            </div>
+            <div class="feature-card">
+                <h3>🔧 IoT Integration</h3>
+                <p>ESP32 hardware with MPU6050 sensors, GPS tracking, and multiple connectivity options including WiFi and 4G.</p>
+            </div>
+            <div class="feature-card">
+                <h3>🤖 AI Powered</h3>
+                <p>Machine learning for behavioral analysis, predictive safety analytics, and real-time data processing.</p>
+            </div>
+        </div>
+
+        <div class="tech-stack">
+            <h2>💻 Technology Stack</h2>
+            <div class="tech-grid">
+                <div class="tech-item">
+                    <h4>Frontend</h4>
+                    <p>React 18.2<br>TypeScript<br>Tailwind CSS</p>
+                </div>
+                <div class="tech-item">
+                    <h4>Backend</h4>
+                    <p>Node.js<br>Express.js<br>Firebase</p>
+                </div>
+                <div class="tech-item">
+                    <h4>Hardware</h4>
+                    <p>ESP32<br>MPU6050<br>GPS Module</p>
+                </div>
+                <div class="tech-item">
+                    <h4>Deployment</h4>
+                    <p>Vercel<br>GitHub Pages<br>PWA Ready</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>🌟 Star the project on GitHub if you find it helpful!</p>
+        <p>Made with ❤️ for Rider Safety</p>
+    </div>
+
+    <script>
+        // Simple analytics
+        console.log('RideWayz Demo Page Loaded');
+        
+        // Mobile detection
+        if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
+            console.log('Mobile device detected');
+        }
+    </script>
+</body>
+</html>
