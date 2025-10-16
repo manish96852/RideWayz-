@@ -50,7 +50,7 @@
 ```
 ┌─────────────────┐    ┌──────────────────┐    ┌─────────────────┐
 │                 │    │                  │    │                 │
-│   ESP32 Device  │───▶│   Cloud Server   │───▶│   Mobile App    │
+│   ESP32 Device  │───│   Cloud Server   │───  │   Mobile App    │
 │                 │    │                  │    │                 │
 │ • GPS Module    │    │ • Firebase DB    │    │ • React PWA     │
 │ • MPU6050       │    │ • Node.js API    │    │ • Real-time UI  │
@@ -260,6 +260,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **⭐ If you find this project helpful, please give it a star!**
 
+<<<<<<< HEAD
 **🚗 Made with ❤️ for Rider Safety**#   R i d e W a y z - 
  
  
+=======
+**🚗 Made with ❤️ for Rider Safety**#
+>>>>>>> aa5c2825e70489ae6b2fe4cd60dc8c270407f73f

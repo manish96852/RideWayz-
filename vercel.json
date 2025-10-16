@@ -1,26 +1,22 @@
 {
   "version": 2,
   "name": "ridewayz-app",
-  "builds": [
-    {
-      "src": "ridewayz-app/package.json",
-      "use": "@vercel/static-build",
-      "config": {
-        "distDir": "build"
-      }
-    }
-  ],
+  "framework": "create-react-app",
+  "buildCommand": "cd ridewayz-app && npm install && npm run build",
+  "outputDirectory": "ridewayz-app/build",
+  "installCommand": "cd ridewayz-app && npm install",
   "routes": [
     {
       "src": "/static/(.*)",
       "dest": "/static/$1"
     },
     {
+      "src": "/(.*\\.(js|css|json|ico|png|jpg|jpeg|gif|svg))",
+      "dest": "/$1"
+    },
+    {
       "src": "/(.*)",
       "dest": "/index.html"
     }
-  ],
-  "buildCommand": "cd ridewayz-app && npm run build",
-  "outputDirectory": "ridewayz-app/build",
-  "installCommand": "cd ridewayz-app && npm install"
+  ]
 }
