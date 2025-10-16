@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>RideWayz Mobile Access</title>
+    <style>
+        body { font-family: Arial; text-align: center; padding: 20px; background: #1E293B; color: white; }
+        .container { max-width: 500px; margin: 0 auto; }
+        .qr-code { background: white; padding: 20px; border-radius: 10px; margin: 20px 0; }
+        .url { background: #374151; padding: 15px; border-radius: 8px; margin: 10px 0; }
+        .step { background: #4F46E5; padding: 10px; margin: 10px 0; border-radius: 8px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚗 RideWayz Mobile Access</h1>
+        
+        <div class="url">
+            <h3>📱 Phone URL:</h3>
+            <strong>http://192.168.0.104:3002</strong>
+        </div>
+        
+        <div class="qr-code">
+            <h3>📷 Scan QR Code:</h3>
+            <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=http://192.168.0.104:3002" alt="QR Code">
+        </div>
+        
+        <div class="step">
+            <h3>📲 Installation Steps:</h3>
+            <p>1. Connect phone to same WiFi as PC</p>
+            <p>2. Open browser and enter URL above</p>
+            <p>3. Browser menu → "Add to Home Screen"</p>
+            <p>4. Install complete! 🎉</p>
+        </div>
+        
+        <div class="step">
+            <h3>✅ Features Available:</h3>
+            <p>• Real-time Dashboard</p>
+            <p>• GPS Navigation</p>
+            <p>• Emergency SOS</p>
+            <p>• Safety Analytics</p>
+            <p>• IoT Integration</p>
+        </div>
+    </div>
+</body>
+</html>
